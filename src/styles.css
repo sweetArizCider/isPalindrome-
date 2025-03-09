@@ -98,3 +98,55 @@ button{
   color: white;
 }
 
+
+@media (max-width: 600px) {
+  body {
+    padding: 1rem;
+  }
+
+  header {
+    width: 100%;
+    min-width: unset;
+    max-width: unset;
+    text-align: center;
+    margin-top: 1rem;
+  }
+
+  header h1 {
+    font-size: 48px;
+    padding-left: 0;
+  }
+
+  header p {
+    font-size: 18px;
+    padding-left: 0;
+  }
+
+  article {
+    width: 100%;
+    min-width: unset;
+    max-width: unset;
+    min-height: unset;
+    height: auto;
+    padding: 1rem;
+  }
+
+  input, button {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  #button-footer p {
+    width: 100%;
+    margin: 0.5rem 0;
+  }
+
+  button {
+    margin: 0.5rem 0;
+  }
+
+  #body-footer{
+    margin-top: 9rem;
+  }
+}
+
